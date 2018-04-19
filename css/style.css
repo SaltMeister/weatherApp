@@ -1,10 +1,12 @@
 h1{
     text-align: center;
+    padding: 20px;
 }
-#map{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+button, input {
+    float:right;
+    margin: 5px;
+    padding: 5px;
+    
 }
 .container {
     height: 1000px;
@@ -12,4 +14,12 @@ h1{
 }
 .col-sm-12 {
     background-color: pink;
+}
+
+body {
+   background-color:  lightblue;
+}
+#dayWeather {
+    font-size: 20px;
+    
 }
