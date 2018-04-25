@@ -19,9 +19,11 @@ button, input {
 body {
    background-color:  lightblue;
 }
-#dayWeather {
-    font-size: 30px;
+#dayWeather, #city {
+    font-size: 35px;
     font-family: tahoma;
+    margin: 10px;
+    text-align: center;
     
     
 }

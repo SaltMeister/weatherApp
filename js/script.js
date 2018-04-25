@@ -65,9 +65,9 @@ $(document).ready(function() {
     //Jason is working on this and It displays user data
     function displayUserData(logoWord,logo, temp, city, zip) {
         $("#dayWeather").html("<img src=" + logo + " height='100px' width='100px'>");//logo
-        $("#dayWeather").append(city + " ");//city name
+        $("#city").text(city + " ");//city name
         $("#dayWeather").append(temp +"F ");//temperature
-        $("#dayWeather").append(zip);
+        $("#city").append(zip);
     }
     function displayForecastData(dayWeek, dayIcon, dayIconImg, dayHighTemp, dayLowTemp){
         $("#forecast").html("<img src=" + dayIconImg + "height='100px' width='100px'>");
